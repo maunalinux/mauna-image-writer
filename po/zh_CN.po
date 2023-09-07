@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-24 16:46+0300\n"
+"PO-Revision-Date: 2023-08-09 21:35-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ui/MainWindow.glade:7
+msgid "About"
+msgstr "关于"
+
+#: ui/MainWindow.glade:14
+msgid "Write ISO Images to USB devices easily."
+msgstr "轻松将 ISO 映像写入 USB 设备。"
+
+#: ui/MainWindow.glade:55
+msgid "Checking..."
+msgstr "检查..."
+
+#: ui/MainWindow.glade:111
+msgid "Checking the file's integrity..."
+msgstr "检查文件的完整性..."
+
+#: ui/MainWindow.glade:127
+msgid "Calculating the hash value of the file..."
+msgstr "正在计算文件的哈希值..."
+
+#: ui/MainWindow.glade:141
+msgid "Retrieving data from <b>maunalinux.top</b>..."
+msgstr "从中检索数据 <b>maunalinux.top</b>..."
+
+#: ui/MainWindow.glade:162
+msgid "Are you sure?"
+msgstr "你确定吗？"
+
+#: ui/MainWindow.glade:232
+msgid "This file:"
+msgstr "这个文件："
+
+#: ui/MainWindow.glade:259
+msgid "Will be written on this disk:"
+msgstr "将在该磁盘上写入："
+
+#: ui/MainWindow.glade:299
+msgid ""
+"<b>WARNING:</b>\n"
+"All the personal data on the device will be deleted.\n"
+"Do you want to continue?"
+msgstr ""
+"<b>警告：</b>\n"
+"设备上的所有个人数据都将被删除。\n"
+"你想继续吗？"
+
+#: ui/MainWindow.glade:349
+msgid "DD Mode [Recommended]"
+msgstr "DD模式【推荐】"
+
+#: ui/MainWindow.glade:353
+msgid "ISO Mode (for GNU/Linux)"
+msgstr "ISO 模式（适用于 GNU/Linux）"
+
+#: ui/MainWindow.glade:357
+msgid "ISO Mode (for Windows)"
+msgstr "ISO 模式（适用于 Windows）"
+
+#: ui/MainWindow.glade:363 ui/MainWindow.glade:408 ui/MainWindow.glade:1040
+#: src/MainWindow.py:68
+msgid "Mauna Image Writer"
+msgstr "莫纳 图像编写器"
+
+#: ui/MainWindow.glade:463 src/MainWindow.py:129
+msgid "Select ISO or IMG File"
+msgstr "选择 ISO 或 IMG 文件"
+
+#: ui/MainWindow.glade:629
+msgid "grub not found"
+msgstr "找不到 grub"
+
+#: ui/MainWindow.glade:644 ui/MainWindow.glade:867
+msgid "Cancel"
+msgstr "取消"
+
+#: ui/MainWindow.glade:657
+msgid "Install"
+msgstr "安装"
+
+#: ui/MainWindow.glade:741
+msgid "Message"
+msgstr "信息"
+
+#: ui/MainWindow.glade:787
+msgid "Check ISO online (Mauna only)"
+msgstr "在线检查 ISO（仅限 莫纳）"
+
+#: ui/MainWindow.glade:847
+msgid "Start"
+msgstr "开始"
+
+#: ui/MainWindow.glade:961 src/MainWindow.py:425
+msgid "Writing process is finished."
+msgstr "写入过程结束。"
+
+#: ui/MainWindow.glade:987 src/MainWindow.py:425
+msgid "You can eject the USB disk."
+msgstr "您可以弹出 USB 盘。"
+
+#: ui/MainWindow.glade:997
+msgid "Exit"
+msgstr "出口"
+
+#: ui/MainWindow.glade:1015
+msgid "Write a new file."
+msgstr "写入一个新文件。"
+
+#: src/MainWindow.py:186 src/MainWindow.py:195
+msgid "Target {} does not exists"
+msgstr "目标 {} 不存在"
+
+#: src/MainWindow.py:187 src/MainWindow.py:196
+msgid "Please install {}"
+msgstr "请安装 {}"
+
+#: src/MainWindow.py:190 src/MainWindow.py:199
+msgid "{} not found"
+msgstr "{} 未找到"
+
+#: src/MainWindow.py:253
+msgid "Installation done."
+msgstr "安装完成。"
+
+#: src/MainWindow.py:255 src/MainWindow.py:266
+msgid "Installation failed."
+msgstr "安装失败。"
+
+#: src/MainWindow.py:290 src/MainWindow.py:365
+msgid "Integrity checking failed."
+msgstr "完整性检查失败。"
+
+#: src/MainWindow.py:293
+msgid "This is not a Mauna ISO, or it is corrupted."
+msgstr "这不是 莫纳 ISO，或者已损坏。"
+
+#: src/MainWindow.py:368
+msgid "Could not connect to maunalinux.top."
+msgstr "无法连接到 maunalinux.top。"
+
+#: src/MainWindow.py:428
+msgid "Error!"
+msgstr "错误！"
+
+#: src/MainWindow.py:435
+msgid "An error occured while writing the file to the disk."
+msgstr "将文件写入磁盘时发生错误。"
+
+#: src/MainWindow.py:438
+msgid "Please make sure the USB device is connected properly and try again."
+msgstr "请确保 USB 设备连接正确，然后重试。"

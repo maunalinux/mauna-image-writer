@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-24 16:46+0300\n"
+"PO-Revision-Date: 2023-08-01 08:55-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ui/MainWindow.glade:7
+msgid "About"
+msgstr "के बारे में"
+
+#: ui/MainWindow.glade:14
+msgid "Write ISO Images to USB devices easily."
+msgstr "USB डिवाइस पर ISO छवियाँ आसानी से लिखें।"
+
+#: ui/MainWindow.glade:55
+msgid "Checking..."
+msgstr "जाँच हो रही है..."
+
+#: ui/MainWindow.glade:111
+msgid "Checking the file's integrity..."
+msgstr "फ़ाइल की सत्यनिष्ठा की जाँच की जा रही है..."
+
+#: ui/MainWindow.glade:127
+msgid "Calculating the hash value of the file..."
+msgstr "फ़ाइल के हैश मान की गणना की जा रही है..."
+
+#: ui/MainWindow.glade:141
+msgid "Retrieving data from <b>maunalinux.top</b>..."
+msgstr "<b>maunalinux.top</b> से डेटा पुनर्प्राप्त किया जा रहा है..."
+
+#: ui/MainWindow.glade:162
+msgid "Are you sure?"
+msgstr "क्या आपको यकीन है?"
+
+#: ui/MainWindow.glade:232
+msgid "This file:"
+msgstr "यह फ़ाइल:"
+
+#: ui/MainWindow.glade:259
+msgid "Will be written on this disk:"
+msgstr "इस डिस्क पर लिखा होगा:"
+
+#: ui/MainWindow.glade:299
+msgid ""
+"<b>WARNING:</b>\n"
+"All the personal data on the device will be deleted.\n"
+"Do you want to continue?"
+msgstr ""
+"<b>चेतावनी:</b>\n"
+"डिवाइस पर मौजूद सभी व्यक्तिगत डेटा हटा दिया जाएगा.\n"
+"क्या आप जारी रखना चाहते हैं?"
+
+#: ui/MainWindow.glade:349
+msgid "DD Mode [Recommended]"
+msgstr "डीडी मोड [अनुशंसित]"
+
+#: ui/MainWindow.glade:353
+msgid "ISO Mode (for GNU/Linux)"
+msgstr "आईएसओ मोड (जीएनयू/लिनक्स के लिए)"
+
+#: ui/MainWindow.glade:357
+msgid "ISO Mode (for Windows)"
+msgstr "आईएसओ मोड (विंडोज़ के लिए)"
+
+#: ui/MainWindow.glade:363 ui/MainWindow.glade:408 ui/MainWindow.glade:1040
+#: src/MainWindow.py:68
+msgid "Mauna Image Writer"
+msgstr "मौना छवि लेखक"
+
+#: ui/MainWindow.glade:463 src/MainWindow.py:129
+msgid "Select ISO or IMG File"
+msgstr "ISO या IMG फ़ाइल चुनें"
+
+#: ui/MainWindow.glade:629
+msgid "grub not found"
+msgstr "ग्रब नहीं मिला"
+
+#: ui/MainWindow.glade:644 ui/MainWindow.glade:867
+msgid "Cancel"
+msgstr "रद्द करना"
+
+#: ui/MainWindow.glade:657
+msgid "Install"
+msgstr "स्थापित करना"
+
+#: ui/MainWindow.glade:741
+msgid "Message"
+msgstr "संदेश"
+
+#: ui/MainWindow.glade:787
+msgid "Check ISO online (Mauna only)"
+msgstr "आईएसओ ऑनलाइन जांचें (केवल मौना)"
+
+#: ui/MainWindow.glade:847
+msgid "Start"
+msgstr "शुरू"
+
+#: ui/MainWindow.glade:961 src/MainWindow.py:425
+msgid "Writing process is finished."
+msgstr "लिखने की प्रक्रिया समाप्त हो गई है."
+
+#: ui/MainWindow.glade:987 src/MainWindow.py:425
+msgid "You can eject the USB disk."
+msgstr "आप USB डिस्क को बाहर निकाल सकते हैं."
+
+#: ui/MainWindow.glade:997
+msgid "Exit"
+msgstr "बाहर निकलना"
+
+#: ui/MainWindow.glade:1015
+msgid "Write a new file."
+msgstr "एक नई फ़ाइल लिखें."
+
+#: src/MainWindow.py:186 src/MainWindow.py:195
+msgid "Target {} does not exists"
+msgstr "लक्ष्य {} मौजूद नहीं है"
+
+#: src/MainWindow.py:187 src/MainWindow.py:196
+msgid "Please install {}"
+msgstr "कृपया स्थापित करें {}"
+
+#: src/MainWindow.py:190 src/MainWindow.py:199
+msgid "{} not found"
+msgstr "{} नहीं मिला"
+
+#: src/MainWindow.py:253
+msgid "Installation done."
+msgstr "इंस्टालेशन हो गया."
+
+#: src/MainWindow.py:255 src/MainWindow.py:266
+msgid "Installation failed."
+msgstr "स्थापना विफल।"
+
+#: src/MainWindow.py:290 src/MainWindow.py:365
+msgid "Integrity checking failed."
+msgstr "सत्यनिष्ठा जाँच विफल रही."
+
+#: src/MainWindow.py:293
+msgid "This is not a Mauna ISO, or it is corrupted."
+msgstr "यह मौना आईएसओ नहीं है, या यह दूषित है।"
+
+#: src/MainWindow.py:368
+msgid "Could not connect to maunalinux.top."
+msgstr "maunalinux.top से कनेक्ट नहीं हो सका."
+
+#: src/MainWindow.py:428
+msgid "Error!"
+msgstr "गलती!"
+
+#: src/MainWindow.py:435
+msgid "An error occured while writing the file to the disk."
+msgstr "डिस्क पर फ़ाइल लिखते समय कोई त्रुटि उत्पन्न हुई."
+
+#: src/MainWindow.py:438
+msgid "Please make sure the USB device is connected properly and try again."
+msgstr "कृपया सुनिश्चित करें कि यूएसबी डिवाइस ठीक से कनेक्ट है और पुनः प्रयास करें।"

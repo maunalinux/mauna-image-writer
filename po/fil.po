@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-24 16:46+0300\n"
+"PO-Revision-Date: 2023-08-09 22:39-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ui/MainWindow.glade:7
+msgid "About"
+msgstr "Tungkol sa"
+
+#: ui/MainWindow.glade:14
+msgid "Write ISO Images to USB devices easily."
+msgstr "Madaling magsulat ng ISO Images sa mga USB device."
+
+#: ui/MainWindow.glade:55
+msgid "Checking..."
+msgstr "Sinusuri..."
+
+#: ui/MainWindow.glade:111
+msgid "Checking the file's integrity..."
+msgstr "Sinusuri ang integridad ng file..."
+
+#: ui/MainWindow.glade:127
+msgid "Calculating the hash value of the file..."
+msgstr "Kinakalkula ang hash value ng file..."
+
+#: ui/MainWindow.glade:141
+msgid "Retrieving data from <b>maunalinux.top</b>..."
+msgstr "Kinukuha ang data mula sa <b>maunalinux.top</b>..."
+
+#: ui/MainWindow.glade:162
+msgid "Are you sure?"
+msgstr "Sigurado ka ba?"
+
+#: ui/MainWindow.glade:232
+msgid "This file:"
+msgstr "Ang file na ito:"
+
+#: ui/MainWindow.glade:259
+msgid "Will be written on this disk:"
+msgstr "Isusulat sa disk na ito:"
+
+#: ui/MainWindow.glade:299
+msgid ""
+"<b>WARNING:</b>\n"
+"All the personal data on the device will be deleted.\n"
+"Do you want to continue?"
+msgstr ""
+"<b>BABALA:</b>\n"
+"Made-delete ang lahat ng personal na data sa device.\n"
+"Gusto mo bang magpatuloy?"
+
+#: ui/MainWindow.glade:349
+msgid "DD Mode [Recommended]"
+msgstr "DD Mode [Inirerekomenda]"
+
+#: ui/MainWindow.glade:353
+msgid "ISO Mode (for GNU/Linux)"
+msgstr "ISO Mode (para sa GNU/Linux)"
+
+#: ui/MainWindow.glade:357
+msgid "ISO Mode (for Windows)"
+msgstr "ISO Mode (para sa Windows)"
+
+#: ui/MainWindow.glade:363 ui/MainWindow.glade:408 ui/MainWindow.glade:1040
+#: src/MainWindow.py:68
+msgid "Mauna Image Writer"
+msgstr "Mauna Manunulat ng Larawan"
+
+#: ui/MainWindow.glade:463 src/MainWindow.py:129
+msgid "Select ISO or IMG File"
+msgstr "Piliin ang ISO o IMG File"
+
+#: ui/MainWindow.glade:629
+msgid "grub not found"
+msgstr "hindi nahanap ang grub"
+
+#: ui/MainWindow.glade:644 ui/MainWindow.glade:867
+msgid "Cancel"
+msgstr "Kanselahin"
+
+#: ui/MainWindow.glade:657
+msgid "Install"
+msgstr "I-install"
+
+#: ui/MainWindow.glade:741
+msgid "Message"
+msgstr "Mensahe"
+
+#: ui/MainWindow.glade:787
+msgid "Check ISO online (Mauna only)"
+msgstr "Suriin ang ISO online (Mauna lang)"
+
+#: ui/MainWindow.glade:847
+msgid "Start"
+msgstr "Magsimula"
+
+#: ui/MainWindow.glade:961 src/MainWindow.py:425
+msgid "Writing process is finished."
+msgstr "Tapos na ang proseso ng pagsulat."
+
+#: ui/MainWindow.glade:987 src/MainWindow.py:425
+msgid "You can eject the USB disk."
+msgstr "Maaari mong i-eject ang USB disk."
+
+#: ui/MainWindow.glade:997
+msgid "Exit"
+msgstr "Lumabas"
+
+#: ui/MainWindow.glade:1015
+msgid "Write a new file."
+msgstr "Sumulat ng bagong file."
+
+#: src/MainWindow.py:186 src/MainWindow.py:195
+msgid "Target {} does not exists"
+msgstr "Ang target na {} ay hindi umiiral"
+
+#: src/MainWindow.py:187 src/MainWindow.py:196
+msgid "Please install {}"
+msgstr "Paki-install {}"
+
+#: src/MainWindow.py:190 src/MainWindow.py:199
+msgid "{} not found"
+msgstr "{} hindi mahanap"
+
+#: src/MainWindow.py:253
+msgid "Installation done."
+msgstr "Tapos na ang pag-install."
+
+#: src/MainWindow.py:255 src/MainWindow.py:266
+msgid "Installation failed."
+msgstr "Nabigo ang pag-install."
+
+#: src/MainWindow.py:290 src/MainWindow.py:365
+msgid "Integrity checking failed."
+msgstr "Nabigo ang pagsusuri ng integridad."
+
+#: src/MainWindow.py:293
+msgid "This is not a Mauna ISO, or it is corrupted."
+msgstr "Ito ay hindi isang Mauna ISO, o ito ay sira."
+
+#: src/MainWindow.py:368
+msgid "Could not connect to maunalinux.top."
+msgstr "Hindi makakonekta sa maunalinux.top."
+
+#: src/MainWindow.py:428
+msgid "Error!"
+msgstr "Error!"
+
+#: src/MainWindow.py:435
+msgid "An error occured while writing the file to the disk."
+msgstr "Nagkaroon ng error habang isinusulat ang file sa disk."
+
+#: src/MainWindow.py:438
+msgid "Please make sure the USB device is connected properly and try again."
+msgstr "Pakitiyak na nakakonekta nang maayos ang USB device at subukang muli."

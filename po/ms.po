@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-24 16:46+0300\n"
+"PO-Revision-Date: 2023-08-09 21:16-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ui/MainWindow.glade:7
+msgid "About"
+msgstr "Tentang"
+
+#: ui/MainWindow.glade:14
+msgid "Write ISO Images to USB devices easily."
+msgstr "Tulis Imej ISO ke peranti USB dengan mudah."
+
+#: ui/MainWindow.glade:55
+msgid "Checking..."
+msgstr "Menyemak..."
+
+#: ui/MainWindow.glade:111
+msgid "Checking the file's integrity..."
+msgstr "Menyemak integriti fail..."
+
+#: ui/MainWindow.glade:127
+msgid "Calculating the hash value of the file..."
+msgstr "Mengira nilai cincang fail..."
+
+#: ui/MainWindow.glade:141
+msgid "Retrieving data from <b>maunalinux.top</b>..."
+msgstr "Mendapatkan semula data daripada <b>maunalinux.top</b>..."
+
+#: ui/MainWindow.glade:162
+msgid "Are you sure?"
+msgstr "Adakah anda pasti?"
+
+#: ui/MainWindow.glade:232
+msgid "This file:"
+msgstr "Fail ini:"
+
+#: ui/MainWindow.glade:259
+msgid "Will be written on this disk:"
+msgstr "Akan ditulis pada cakera ini:"
+
+#: ui/MainWindow.glade:299
+msgid ""
+"<b>WARNING:</b>\n"
+"All the personal data on the device will be deleted.\n"
+"Do you want to continue?"
+msgstr ""
+"<b>AMARAN:</b>\n"
+"Semua data peribadi pada peranti akan dipadamkan.\n"
+"Adakah anda mahu meneruskan?"
+
+#: ui/MainWindow.glade:349
+msgid "DD Mode [Recommended]"
+msgstr "Mod DD [Disyorkan]"
+
+#: ui/MainWindow.glade:353
+msgid "ISO Mode (for GNU/Linux)"
+msgstr "Mod ISO (untuk GNU/Linux)"
+
+#: ui/MainWindow.glade:357
+msgid "ISO Mode (for Windows)"
+msgstr "Mod ISO (untuk Windows)"
+
+#: ui/MainWindow.glade:363 ui/MainWindow.glade:408 ui/MainWindow.glade:1040
+#: src/MainWindow.py:68
+msgid "Mauna Image Writer"
+msgstr "Penulis Imej Mauna"
+
+#: ui/MainWindow.glade:463 src/MainWindow.py:129
+msgid "Select ISO or IMG File"
+msgstr "Pilih Fail ISO atau IMG"
+
+#: ui/MainWindow.glade:629
+msgid "grub not found"
+msgstr "grub tidak ditemui"
+
+#: ui/MainWindow.glade:644 ui/MainWindow.glade:867
+msgid "Cancel"
+msgstr "Batal"
+
+#: ui/MainWindow.glade:657
+msgid "Install"
+msgstr "Pasang"
+
+#: ui/MainWindow.glade:741
+msgid "Message"
+msgstr "Mesej"
+
+#: ui/MainWindow.glade:787
+msgid "Check ISO online (Mauna only)"
+msgstr "Semak ISO dalam talian (Mauna sahaja)"
+
+#: ui/MainWindow.glade:847
+msgid "Start"
+msgstr "Mulakan"
+
+#: ui/MainWindow.glade:961 src/MainWindow.py:425
+msgid "Writing process is finished."
+msgstr "Proses penulisan selesai."
+
+#: ui/MainWindow.glade:987 src/MainWindow.py:425
+msgid "You can eject the USB disk."
+msgstr "Anda boleh mengeluarkan cakera USB."
+
+#: ui/MainWindow.glade:997
+msgid "Exit"
+msgstr "Keluar"
+
+#: ui/MainWindow.glade:1015
+msgid "Write a new file."
+msgstr "Tulis fail baharu."
+
+#: src/MainWindow.py:186 src/MainWindow.py:195
+msgid "Target {} does not exists"
+msgstr "Sasaran {} tidak wujud"
+
+#: src/MainWindow.py:187 src/MainWindow.py:196
+msgid "Please install {}"
+msgstr "Sila pasang {}"
+
+#: src/MainWindow.py:190 src/MainWindow.py:199
+msgid "{} not found"
+msgstr "{} tidak ditemui"
+
+#: src/MainWindow.py:253
+msgid "Installation done."
+msgstr "Pemasangan selesai."
+
+#: src/MainWindow.py:255 src/MainWindow.py:266
+msgid "Installation failed."
+msgstr "Pemasangan gagal."
+
+#: src/MainWindow.py:290 src/MainWindow.py:365
+msgid "Integrity checking failed."
+msgstr "Semakan integriti gagal."
+
+#: src/MainWindow.py:293
+msgid "This is not a Mauna ISO, or it is corrupted."
+msgstr "Ini bukan ISO Mauna, atau ia rosak."
+
+#: src/MainWindow.py:368
+msgid "Could not connect to maunalinux.top."
+msgstr "Tidak dapat menyambung ke maunalinux.top."
+
+#: src/MainWindow.py:428
+msgid "Error!"
+msgstr "Ralat!"
+
+#: src/MainWindow.py:435
+msgid "An error occured while writing the file to the disk."
+msgstr "Ralat berlaku semasa menulis fail ke cakera."
+
+#: src/MainWindow.py:438
+msgid "Please make sure the USB device is connected properly and try again."
+msgstr "Sila pastikan peranti USB disambungkan dengan betul dan cuba lagi."

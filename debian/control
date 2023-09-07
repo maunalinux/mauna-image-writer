@@ -1,0 +1,21 @@
+Source: mauna-image-writer
+Section: utils
+Priority: optional
+Maintainer: Mauna Linux <dev@maunalinux.top>
+Build-Depends: debhelper (>= 10), dh-python, python3-all, python3-setuptools, gettext
+Standards-Version: 4.3.0
+Homepage: https://github.com/maunalinux/mauna-image-writer
+
+Package: mauna-image-writer
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         parted,
+         python3 (>=3.5),
+         python3-gi,
+         python3-requests,
+         python3-pyudev,
+         rsync,
+         gir1.2-gtk-3.0
+Description: Mauna Image Writer
+ Simple Gtk+ and Python based Disk Image USB burner

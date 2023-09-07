@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-24 16:46+0300\n"
+"PO-Revision-Date: 2023-08-09 21:03-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: ui/MainWindow.glade:7
+msgid "About"
+msgstr "Buruz"
+
+#: ui/MainWindow.glade:14
+msgid "Write ISO Images to USB devices easily."
+msgstr "Idatzi ISO irudiak USB gailuetan erraz."
+
+#: ui/MainWindow.glade:55
+msgid "Checking..."
+msgstr "Egiaztatzen..."
+
+#: ui/MainWindow.glade:111
+msgid "Checking the file's integrity..."
+msgstr "Fitxategiaren osotasuna egiaztatzen..."
+
+#: ui/MainWindow.glade:127
+msgid "Calculating the hash value of the file..."
+msgstr "Fitxategiaren hash balioa kalkulatzen..."
+
+#: ui/MainWindow.glade:141
+msgid "Retrieving data from <b>maunalinux.top</b>..."
+msgstr "Datuak berreskuratzen <b>maunalinux.top</b>..."
+
+#: ui/MainWindow.glade:162
+msgid "Are you sure?"
+msgstr "Ziur zaude?"
+
+#: ui/MainWindow.glade:232
+msgid "This file:"
+msgstr "Fitxategi hau:"
+
+#: ui/MainWindow.glade:259
+msgid "Will be written on this disk:"
+msgstr "Disko honetan idatziko da:"
+
+#: ui/MainWindow.glade:299
+msgid ""
+"<b>WARNING:</b>\n"
+"All the personal data on the device will be deleted.\n"
+"Do you want to continue?"
+msgstr ""
+"<b>OHARRA:</b>\n"
+"Gailuko datu pertsonal guztiak ezabatuko dira.\n"
+"Jarraitu nahi duzu?"
+
+#: ui/MainWindow.glade:349
+msgid "DD Mode [Recommended]"
+msgstr "DD modua [Gomendatua]"
+
+#: ui/MainWindow.glade:353
+msgid "ISO Mode (for GNU/Linux)"
+msgstr "ISO modua (GNU/Linux-erako)"
+
+#: ui/MainWindow.glade:357
+msgid "ISO Mode (for Windows)"
+msgstr "ISO modua (Windows-erako)"
+
+#: ui/MainWindow.glade:363 ui/MainWindow.glade:408 ui/MainWindow.glade:1040
+#: src/MainWindow.py:68
+msgid "Mauna Image Writer"
+msgstr "Mauna Irudi Idazlea"
+
+#: ui/MainWindow.glade:463 src/MainWindow.py:129
+msgid "Select ISO or IMG File"
+msgstr "Hautatu ISO edo IMG fitxategia"
+
+#: ui/MainWindow.glade:629
+msgid "grub not found"
+msgstr "grub ez da aurkitu"
+
+#: ui/MainWindow.glade:644 ui/MainWindow.glade:867
+msgid "Cancel"
+msgstr "Utzi"
+
+#: ui/MainWindow.glade:657
+msgid "Install"
+msgstr "Instalatu"
+
+#: ui/MainWindow.glade:741
+msgid "Message"
+msgstr "Mezua"
+
+#: ui/MainWindow.glade:787
+msgid "Check ISO online (Mauna only)"
+msgstr "Egiaztatu ISO linean (Mauna soilik)"
+
+#: ui/MainWindow.glade:847
+msgid "Start"
+msgstr "Hasi"
+
+#: ui/MainWindow.glade:961 src/MainWindow.py:425
+msgid "Writing process is finished."
+msgstr "Idazketa prozesua amaitu da."
+
+#: ui/MainWindow.glade:987 src/MainWindow.py:425
+msgid "You can eject the USB disk."
+msgstr "USB diskoa kanporatu dezakezu."
+
+#: ui/MainWindow.glade:997
+msgid "Exit"
+msgstr "Irten"
+
+#: ui/MainWindow.glade:1015
+msgid "Write a new file."
+msgstr "Idatzi fitxategi berri bat."
+
+#: src/MainWindow.py:186 src/MainWindow.py:195
+msgid "Target {} does not exists"
+msgstr "Helburua {} ez dago"
+
+#: src/MainWindow.py:187 src/MainWindow.py:196
+msgid "Please install {}"
+msgstr "Instalatu {}"
+
+#: src/MainWindow.py:190 src/MainWindow.py:199
+msgid "{} not found"
+msgstr "{} ez da aurkitu"
+
+#: src/MainWindow.py:253
+msgid "Installation done."
+msgstr "Instalazioa eginda."
+
+#: src/MainWindow.py:255 src/MainWindow.py:266
+msgid "Installation failed."
+msgstr "Instalazioak huts egin du."
+
+#: src/MainWindow.py:290 src/MainWindow.py:365
+msgid "Integrity checking failed."
+msgstr "Osotasuna egiaztatzeak huts egin du."
+
+#: src/MainWindow.py:293
+msgid "This is not a Mauna ISO, or it is corrupted."
+msgstr "Hau ez da Mauna ISO bat, edo hondatuta dago."
+
+#: src/MainWindow.py:368
+msgid "Could not connect to maunalinux.top."
+msgstr "Ezin izan da maunalinux.top-era konektatu."
+
+#: src/MainWindow.py:428
+msgid "Error!"
+msgstr "Errorea!"
+
+#: src/MainWindow.py:435
+msgid "An error occured while writing the file to the disk."
+msgstr "Errore bat gertatu da fitxategia diskoan idaztean."
+
+#: src/MainWindow.py:438
+msgid "Please make sure the USB device is connected properly and try again."
+msgstr "Mesedez, ziurtatu USB gailua behar bezala konektatuta dagoela eta saiatu berriro."

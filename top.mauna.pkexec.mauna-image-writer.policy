@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<policyconfig>
+
+  <vendor>Mauna Linux</vendor>
+  <vendor_url>https://maunalinux.top/</vendor_url>
+
+  <action id="top.mauna.pkexec.mauna-image-writer-dd-mode">
+    <description>Run FlashTool</description>
+    <message>Authentication is required to run Mauna Image Writer</message>
+    <message xml:lang="af">Stawing word vereis om Mauna Beeldskrywer te laat loop</message>
+    <message xml:lang="de">Zur Ausführung von Mauna Bildautor ist eine Authentifizierung erforderlich</message>
+    <message xml:lang="el">Απαιτείται έλεγχος ταυτότητας για την εκτέλεση του Συγγραφέας εικόνων Mauna</message>    
+    <message xml:lang="es">Se requiere autenticación para ejecutar Escritor de imágenes Mauna</message>
+    <message xml:lang="eu">Autentifikazioa behar da Mauna Irudi Idazlea exekutatzeko</message>
+    <message xml:lang="fa">احراز هویت برای اجرای ماونا نویسنده تصویر لازم است</message>
+    <message xml:lang="fil">Kinakailangan ang pagpapatunay upang patakbuhin ang Mauna Manunulat ng Larawan</message>          
+    <message xml:lang="fr">L'authentification est requise pour exécuter Écrivain d'images Mauna</message>
+    <message xml:lang="id">Otentikasi diperlukan untuk menjalankan Penulis Gambar Mauna</message>              
+    <message xml:lang="ms">Pengesahan diperlukan untuk menjalankan Penulis Imej Mauna</message>            
+    <message xml:lang="pt_BR">A autenticação é necessária para executar o Gravador de Imagens do Mauna</message>
+    <message xml:lang="pt">A autenticação é necessária para executar o Gravador de Imagens Mauna</message>
+    <message xml:lang="tr">Mauna Disk Kalıbı Yazıcı için yetkilendirme gerekiyor</message>
+    <message xml:lang="zh_CN">运行 莫纳 图像编写器 需要身份验证</message>    
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/share/mauna/mauna-image-writer/src/ImageWriter.py</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+  <action id="top.mauna.pkexec.mauna-image-writer-iso-mode">
+    <description>Run FlashTool</description>
+    <message>Authentication is required to run Mauna Image Writer</message>
+    <message xml:lang="af">Stawing word vereis om Mauna Beeldskrywer te laat loop</message>
+    <message xml:lang="de">Zur Ausführung von Mauna Bildautor ist eine Authentifizierung erforderlich</message>
+    <message xml:lang="el">Απαιτείται έλεγχος ταυτότητας για την εκτέλεση του Συγγραφέας εικόνων Mauna</message>    
+    <message xml:lang="es">Se requiere autenticación para ejecutar Escritor de imágenes Mauna</message>
+    <message xml:lang="eu">Autentifikazioa behar da Mauna Irudi Idazlea exekutatzeko</message>
+    <message xml:lang="fa">احراز هویت برای اجرای ماونا نویسنده تصویر لازم است</message>
+    <message xml:lang="fil">Kinakailangan ang pagpapatunay upang patakbuhin ang Mauna Manunulat ng Larawan</message>          
+    <message xml:lang="fr">L'authentification est requise pour exécuter Écrivain d'images Mauna</message>
+    <message xml:lang="id">Otentikasi diperlukan untuk menjalankan Penulis Gambar Mauna</message>              
+    <message xml:lang="ms">Pengesahan diperlukan untuk menjalankan Penulis Imej Mauna</message>            
+    <message xml:lang="pt_BR">A autenticação é necessária para executar o Gravador de Imagens do Mauna</message>
+    <message xml:lang="pt">A autenticação é necessária para executar o Gravador de Imagens Mauna</message>
+    <message xml:lang="tr">Mauna Disk Kalıbı Yazıcı için yetkilendirme gerekiyor</message>
+    <message xml:lang="zh_CN">运行 莫纳 图像编写器 需要身份验证</message>            
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/share/mauna/mauna-image-writer/src/ISOCopier.py</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+  <action id="top.mauna.pkexec.mauna-image-writer-kill">
+    <description>Run FlashTool</description>
+    <message>Authentication is required to run Mauna Image Writer</message>
+    <message xml:lang="af">Stawing word vereis om Mauna Beeldskrywer te laat loop</message>
+    <message xml:lang="de">Zur Ausführung von Mauna Bildautor ist eine Authentifizierung erforderlich</message>
+    <message xml:lang="el">Απαιτείται έλεγχος ταυτότητας για την εκτέλεση του Συγγραφέας εικόνων Mauna</message>    
+    <message xml:lang="es">Se requiere autenticación para ejecutar Escritor de imágenes Mauna</message>
+    <message xml:lang="eu">Autentifikazioa behar da Mauna Irudi Idazlea exekutatzeko</message>
+    <message xml:lang="fa">احراز هویت برای اجرای ماونا نویسنده تصویر لازم است</message>
+    <message xml:lang="fil">Kinakailangan ang pagpapatunay upang patakbuhin ang Mauna Manunulat ng Larawan</message>          
+    <message xml:lang="fr">L'authentification est requise pour exécuter Écrivain d'images Mauna</message>
+    <message xml:lang="id">Otentikasi diperlukan untuk menjalankan Penulis Gambar Mauna</message>              
+    <message xml:lang="ms">Pengesahan diperlukan untuk menjalankan Penulis Imej Mauna</message>            
+    <message xml:lang="pt_BR">A autenticação é necessária para executar o Gravador de Imagens do Mauna</message>
+    <message xml:lang="pt">A autenticação é necessária para executar o Gravador de Imagens Mauna</message>
+    <message xml:lang="tr">Mauna Disk Kalıbı Yazıcı için yetkilendirme gerekiyor</message>
+    <message xml:lang="zh_CN">运行 莫纳 图像编写器 需要身份验证</message>           
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/kill</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+
+</policyconfig>
