@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 20:34-0300\n"
+"POT-Creation-Date: 2023-09-30 20:06-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,7 +150,7 @@ msgid "This is not a Mauna ISO, or it is corrupted."
 msgstr ""
 
 #: src/MainWindow.py:368
-msgid "Could not connect to amaroklinux.org."
+msgid "Could not connect to maunalinux.top."
 msgstr ""
 
 #: src/MainWindow.py:428
