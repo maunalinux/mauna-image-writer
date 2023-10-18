@@ -1,3 +1,10 @@
+mauna-image-writer (1.0.1) mauna; urgency=medium
+
+  * New upstream release
+  * l10n: Add new translations
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 18 Oct 2023 19:19:50 -0300
+
 mauna-image-writer (1.0.0) mauna; urgency=medium
 
   * Initial release for Mauna Linux

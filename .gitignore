@@ -23,4 +23,5 @@ po/ms/
 po/pt/
 po/pt_BR/
 po/zh_CN/
+po/*/*/*.mo
 src/__version__
