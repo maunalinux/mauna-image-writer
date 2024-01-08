@@ -4,7 +4,8 @@ Source: https://github.com/maunalinux/mauna-image-writer
 
 
 Files: *
-Copyright: 2023 Mauna Linux <dev@maunalinux.top>
+Copyright: 2023, Pardus <dev@pardus.org.tr>
+	   2023-2024 Mauna Linux <dev@maunalinux.top>
 License: GPL-3.0+
 
 License: GPL-3.0+
