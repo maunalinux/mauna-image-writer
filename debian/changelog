@@ -1,3 +1,17 @@
+mauna-image-writer (1.0.2) mauna; urgency=medium
+
+  * New upstream version
+  * Update copyright
+
+ -- Mauna Linux <dev@maunalinux.top>  Thu, 11 Jan 2024 21:02:13 -0300
+
+mauna-image-writer (1.0.1.1) mauna; urgency=medium
+
+  * New upstream version
+  * update
+
+ -- Mauna Linux <dev@maunalinux.top>  Fri, 27 Oct 2023 11:12:31 -0300
+
 mauna-image-writer (1.0.1) mauna; urgency=medium
 
   * New upstream release
