@@ -10,10 +10,12 @@
     <property name="type-hint">dialog</property>
     <property name="program-name">Mauna Image Writer</property>
     <property name="version">0.2.0~Beta1</property>
-    <property name="copyright">©2023 Mauna Linux</property>
+    <property name="copyright">©2024 Mauna Linux</property>
     <property name="comments" translatable="yes">Write ISO Images to USB devices easily.</property>
     <property name="website">https://maunalinux.top</property>
-    <property name="authors">Mauna Linux</property>
+    <property name="authors">Emin Fedar
+Ali Rıza Keskin
+Fatih Altun</property>
     <property name="translator-credits">Mauna Linux</property>
     <property name="logo">../icon.svg</property>
     <property name="license-type">gpl-3-0</property>
@@ -820,7 +822,7 @@ Do you want to continue?</property>
                     <property name="opacity">0.59999999999999998</property>
                     <property name="margin-top">7</property>
                     <property name="margin-bottom">7</property>
-                    <property name="label">MAUNA LINUX | 2023</property>
+                    <property name="label">MAUNA LINUX | 2024</property>
                     <attributes>
                       <attribute name="size" value="9500"/>
                     </attributes>
